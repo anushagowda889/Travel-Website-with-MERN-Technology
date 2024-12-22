@@ -1,0 +1,50 @@
+travel-wonder/
+├── backend/
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── App.js
+│   │   └── components/
+│   │       ├── SignUp.js
+│   │       └── SignIn.js
+
+
+Navigate to the backend directory:
+
+bash
+Copy code
+cd travel-wonder
+mkdir backend
+cd backend
+npm init -y
+Install dependencies:
+
+bash
+Copy code
+npm install express mongoose bcryptjs jsonwebtoken body-parser cors dotenv
+npm install --save-dev nodemon
+
+
+
+.env
+
+bash
+Copy code
+MONGO_URI=mongodb://localhost:27017/travelwonder
+JWT_SECRET=your-secret-key
+Frontend Setup
+Navigate to the frontend directory:
+
+bash
+Copy code
+cd ../
+mkdir frontend
+cd frontend
+npx create-react-app .
+npm install axios react-router-dom
+Create the React components:
+
+src/components/SignUp.js
+src/components/SignIn.js
+Update src/App.js for routing.
+
