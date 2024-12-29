@@ -1,0 +1,25 @@
+travel-website/
+├── backend/          # Node.js and Express server
+│   ├── config/       # Configuration files (e.g., database connection)
+│   ├── controllers/  # Controllers for handling requests
+│   ├── models/       # Mongoose schemas/models
+│   ├── routes/       # API routes
+│   ├── middleware/   # Middleware functions
+│   ├── utils/        # Utility functions
+│   ├── server.js     # Entry point for backend
+│   └── package.json  # Backend dependencies
+├── frontend/         # React.js client
+│   ├── public/       # Static files
+│   ├── src/          # React source code
+│   │   ├── assets/   # Images, CSS, etc.
+│   │   ├── components/ # Reusable React components
+│   │   ├── pages/    # Page components (Connect, About, etc.)
+│   │   ├── context/  # Context API for global state
+│   │   ├── services/ # API service functions
+│   │   ├── App.js    # Main app component
+│   │   ├── index.js  # Entry point for frontend
+│   │   ├── routes.js # Define routes for pages
+│   └── package.json  # Frontend dependencies
+├── .env              # Environment variables
+├── README.md         # Project documentation
+└── package.json      # Root dependencies (if needed)
